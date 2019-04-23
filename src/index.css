@@ -7,8 +7,35 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.imgFront{
+  width: 100%;
+  height: auto;
+}
+.imageTd{
+  width: 100px;
+}
+.table_Phone{
+  text-align: center;
+}
+.headerContainer{
+  display: flex;
+}
+.searchSection{
+  left: 70%;
+}
+.ui.container{
+  position: relative;
+}
+.headerText{
+  text-align: center;
+  top: 0;
+  left: 50%;
+}
+.editButton a{
+  color: #21ba45;
+}
+
