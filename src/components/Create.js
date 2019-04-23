@@ -94,7 +94,7 @@ class Create extends Component{
                         <label>Phone Number</label>
                         <input
                             required
-                            type="number"
+                            pattern={'[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}'}
                             name="phone_number" placeholder="Phone Number" value={phone_number} onChange={this.onChange}/>
                     </div>
                         <div className="field" >
