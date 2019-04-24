@@ -108,7 +108,7 @@ class Edit extends Component{
                                 <input
                                     required
                                     ppattern={'[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}'}
-                                    name="phone_number" placeholder="Phone Number" value={this.phone_number} onChange={this.onChange}/>
+                                    name="phone_number" placeholder="Phone Number XXX-XXX-XX-XX" value={this.phone_number} onChange={this.onChange}/>
                             </div>
                             <div className="field" >
                                 <label>E-mail</label>
