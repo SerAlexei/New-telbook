@@ -95,31 +95,31 @@ class Edit extends Component{
                                 <label>First Name:</label>
                                 <input
                                     required
-                                    type="text" name="firstName" placeholder="First Name" value={this.firstName} onChange={this.onChange}/>
+                                    type="text" name="firstName" placeholder="First Name" value={this.state.firstName} onChange={this.onChange}/>
                             </div>
                             <div className="field" >
                                 <label>Last Name</label>
                                 <input
                                     required
-                                    type="text" name="lastName" placeholder="Last Name" value={this.lastName} onChange={this.onChange}/>
+                                    type="text" name="lastName" placeholder="Last Name" value={this.state.lastName} onChange={this.onChange}/>
                             </div>
                             <div className="field" >
                                 <label>Phone Number</label>
                                 <input
                                     required
                                     ppattern={'[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}'}
-                                    name="phone_number" placeholder="Phone Number XXX-XXX-XX-XX" value={this.phone_number} onChange={this.onChange}/>
+                                    name="phone_number" placeholder="Phone Number XXX-XXX-XX-XX" value={this.state.phone_number} onChange={this.onChange}/>
                             </div>
                             <div className="field" >
                                 <label>E-mail</label>
                                 <input
-                                    required type="email" name="email" placeholder="E-mail" value={this.email} onChange={this.onChange}/>
+                                    required type="email" name="email" placeholder="E-mail" value={this.state.email} onChange={this.onChange}/>
                             </div >
                             <div className="field" >
                                 <label>Company</label>
                                 <input
                                     required
-                                    type="text" name="company" placeholder="Company" value={this.company} onChange={this.onChange}/>
+                                    type="text" name="company" placeholder="Company" value={this.state.company} onChange={this.onChange}/>
                             </div >
                             <div className="field" >
                                 <input required type="file" className="fileInput" data-url={this.url} onChange={this.handleChange}  />
